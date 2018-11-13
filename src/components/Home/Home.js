@@ -3,6 +3,7 @@ import './home.css';
 import Nav from "../Nav/Nav.js";
 import Typewriter from "../Typewriter/Typewriter.js";
 import Projects from "../Projects/Projects.js"
+import About from "../About/About.js";
 
 class Home extends Component{
     state ={
@@ -56,7 +57,7 @@ render(){
                         about={this.displaySwitchAbout.bind(this)} 
                         contact={this.displaySwitchContact.bind(this)}  
                     />
-                    {/* <About /> */}
+                    <About />
                 </div>
             )
         case("projects"):

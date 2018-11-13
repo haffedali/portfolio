@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Slider.css";
 
 const Slider = (props) => {
@@ -8,8 +9,8 @@ const Slider = (props) => {
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
                 <p class="card-text">{props.blurb}</p>
-                <a href={props.url} class="btn btn-primary">Website</a>
-                <a href="#" class="btn btn-warning">SourceCode</a>
+                <a id="site" href={props.url} class="btn btn-primary"><FontAwesomeIcon icon="globe" /></a>
+                <a id="code" href="#" class="btn btn-warning"><FontAwesomeIcon icon="wallet" /></a>
             </div>
         </div>
     )
