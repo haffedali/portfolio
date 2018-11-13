@@ -1,0 +1,52 @@
+.bubble-one {
+    position: relative;
+    float: left;
+    height: 85%;
+    width: 28%;
+}
+
+
+.bubble-two {
+    position: relative;
+    float: left;
+    left: 60px;
+    height: 85%;
+    width: 28%;
+    background-color: green;
+}
+
+.bubble-three {
+    position: relative;
+    float: right;
+    height: 85%;
+    width: 28%;
+    background-color: blue;
+}
+
+.bubble-row {
+    position: relative;
+    left: 360px;
+    top: 1000px;
+    height: 200px;
+    width: 800px;
+    outline: solid;
+    outline-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 15px 15px 15px;
+}
+
+img {
+    position: relative;
+    height: 144px;
+    width: 215px;
+    float: left;
+    margin: 13px;
+}
+
+.bubble-one {
+    position: relative;
+    float: left;
+    height: 85%;
+    width: 28%;
+}
