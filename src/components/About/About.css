@@ -1,0 +1,19 @@
+.container {
+    width: 65%;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    position: relative;
+    float: left;
+    margin: 30px;
+    height:200px;
+    width:200px;
+}
+
+.testomonial {
+    position: relative;
+    float: right;
+    margin: 30px;
+}
