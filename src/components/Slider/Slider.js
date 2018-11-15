@@ -9,8 +9,8 @@ const Slider = (props) => {
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
                 <p class="card-text">{props.blurb}</p>
-                <a id="site" href={props.url} class="btn btn-primary"><FontAwesomeIcon icon="globe" /></a>
-                <a id="code" href="#" class="btn btn-warning"><FontAwesomeIcon icon="wallet" /></a>
+                <a id="site" href={props.url} class="btn btn-primary"></a>
+                <a id="code" href="#" class="btn btn-warning"></a>
             </div>
         </div>
     )
