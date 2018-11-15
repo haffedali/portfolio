@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './home.css';
 import Nav from "../Nav/Nav.js";
+import Contact from "../Contact/Contact.js";
 import Typewriter from "../Typewriter/Typewriter.js";
 import Projects from "../Projects/Projects.js"
 import About from "../About/About.js";
@@ -70,6 +71,18 @@ render(){
                         contact={this.displaySwitchContact.bind(this)}  
                     />
                     <Projects />
+                </div>
+            )
+        case("contact"):
+            return(
+                <div>
+                    <Nav 
+                        projects={this.displaySwitchProjects.bind(this)}
+                        typewriter={this.displaySwitchTypewriter.bind(this)} 
+                        about={this.displaySwitchAbout.bind(this)} 
+                        contact={this.displaySwitchContact.bind(this)}  
+                    />
+                    <Contact />
                 </div>
             )
         default:
