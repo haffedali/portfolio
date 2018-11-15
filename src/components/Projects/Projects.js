@@ -9,11 +9,13 @@ const Projects = () => {
             title = "VGnexus" 
             thumbnail = "/assets/vg.png"
             url = "https://vgnexus.com/"
+            codeUrl = "https://github.com/JackRa88it/VG-Nexus"
             blurb = "A miniclip like website made to host games and accounts! Socialize with friends on the forums and talk smack in the chat!"
         />
         <Slider 
             title = "CollectUs"
             thumbnail = "/assets/art.png"
+            codeUrl = "https://github.com/DinhDo2312/ArtCollective"
             url = "https://stormy-brushlands-10294.herokuapp.com/?fbclid=IwAR3axaknsToSN29k2CIIjPIS0zaARDyoeZ5TOfp9EkWJw7po-zGE5Nhvth8"
             blurb = "A social networking site where artists could meet, find inspire eachother, and collaborate! This is a project I truly care about and use myself!"
         />

@@ -1,10 +1,12 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Footer.css";
 
 const Footer = () => {
     return(
-        <div></div>
+        <div>
+            <div><i class="fab fa-linkedin"></i></div>
+            <div><i class="fab fa-github-square"></i></div>
+        </div>
     )
 }
 

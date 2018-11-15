@@ -8,8 +8,8 @@ const Slider = (props) => {
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
                 <p class="card-text">{props.blurb}</p>
-                <a id="site" href={props.url} class="btn btn-primary"></a>
-                <a id="code" href="#" class="btn btn-warning"></a>
+                <a id="site" href={props.url} class="btn btn-primary"><i class="fas fa-globe"></i></a>
+                <a id="code" href={props.codeUrl} class="btn btn-warning"><i class="fab fa-github"></i></a>
             </div>
         </div>
     )
