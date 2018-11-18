@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+.contact-info {
+    position:relative;
+    top:100px;
+    display: inline-block;
+    font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 750; line-height: 26.4px;
+}
+

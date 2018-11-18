@@ -1,10 +1,19 @@
 .container {
     width: 65%;
     position: relative;
-    margin: auto;
+    text-align: center
 }
 
-img {
+.about {
+    position: relative;
+    top: 100px;
+}
+.portrait {
+    position: relative;
+    float: left;
+}
+
+.selfie {
     position: relative;
     float: left;
     margin: 30px;
@@ -14,6 +23,8 @@ img {
 
 .testomonial {
     position: relative;
-    float: right;
+    top: 70px;
     margin: 30px;
 }
+
+.testomonial { font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }

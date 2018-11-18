@@ -17,7 +17,11 @@ const Projects = () => {
             thumbnail = "/assets/art.png"
             codeUrl = "https://github.com/DinhDo2312/ArtCollective"
             url = "https://stormy-brushlands-10294.herokuapp.com/?fbclid=IwAR3axaknsToSN29k2CIIjPIS0zaARDyoeZ5TOfp9EkWJw7po-zGE5Nhvth8"
-            blurb = "A social networking site where artists could meet, find inspire eachother, and collaborate! This is a project I truly care about and use myself!"
+            blurb = "A social networking site where artists find, inspire, and collaborate! This is a project I truly care about and use myself!"
+        />
+        <Slider
+            title = "And more to come!"
+            thumbnail = "https://c7.uihere.com/files/296/575/586/plus-and-minus-signs-computer-icons-clip-art-plus-sign.jpg"
         />
         </div>
     )

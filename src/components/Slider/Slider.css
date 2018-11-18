@@ -2,14 +2,32 @@
     float: left;
     margin: 50px;
     width:240px;
+    height: 450px;
+    text-align: center;
 }
 
 .card-img-top {
+    display: inline-block;
     width: 85%;
 }
 
-#site {
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.button-case {
+    position: relative;
+    float: left;
+    margin: 10px;
     
+}
+
+#site {
+    float: left;
 }
 
 #code {
