@@ -7,14 +7,14 @@ const Projects = () => {
         <div>
         <Slider
             title = "VGnexus" 
-            thumbnail = "/assets/vg.png"
+            thumbnail = "https://i.gyazo.com/e58020e8aa302892a0db5a27353dadb0.png"
             url = "https://vgnexus.com/"
             codeUrl = "https://github.com/JackRa88it/VG-Nexus"
             blurb = "A miniclip like website made to host games and accounts! Socialize with friends on the forums and talk smack in the chat!"
         />
         <Slider 
             title = "CollectUs"
-            thumbnail = "/assets/art.png"
+            thumbnail = "https://i.gyazo.com/582cdfd3c80d85ad719d9cb74358050a.jpg"
             codeUrl = "https://github.com/DinhDo2312/ArtCollective"
             url = "https://stormy-brushlands-10294.herokuapp.com/?fbclid=IwAR3axaknsToSN29k2CIIjPIS0zaARDyoeZ5TOfp9EkWJw7po-zGE5Nhvth8"
             blurb = "A social networking site where artists find, inspire, and collaborate! This is a project I truly care about and use myself!"
