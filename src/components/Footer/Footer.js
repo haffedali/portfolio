@@ -3,10 +3,12 @@ import "./Footer.css";
 
 const Footer = () => {
     return(
-        <div>
-            <div class="linkedin"><i class="fab fa-linkedin"></i></div>
-            <div class="github"><i class="fab fa-github-square"></i></div>
-            <div class="email"><i class="fas fa-envelope"></i></div>
+        <div id="container">
+            <div className="linkContainer">
+                <div class="link"><a href="https://www.linkedin.com/in/haffed-ali-991b1916b/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                <div class="link"><a href="https://github.com/haffedali" target="_blank"><i class="fab fa-github-square"></i></a></div>
+                <div class="link"><a href="https://angel.co/haffed-ali" target="_blank"><i class="fab fa-angellist"></i></a></div>
+            </div>
         </div>
     )
 }

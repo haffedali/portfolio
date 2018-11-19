@@ -1,0 +1,32 @@
+#container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: fffafa;
+    text-align: center;
+}
+
+.link {
+    float: left;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.fa-angellist {
+    color: #353839;
+}
+
+.fa-github-square {
+    color: #353839;
+}
+
+.fa-linkedin {
+    color: #353839;
+}
+
+.linkContainer {
+    display: inline-block
+}

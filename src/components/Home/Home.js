@@ -5,6 +5,7 @@ import Contact from "../Contact/Contact.js";
 import Typewriter from "../Typewriter/Typewriter.js";
 import Projects from "../Projects/Projects.js"
 import About from "../About/About.js";
+import Footer from "../Footer/Footer.js"
 
 class Home extends Component{
     state ={
@@ -47,6 +48,7 @@ render(){
                         contact={this.displaySwitchContact.bind(this)}  
                     />
                     <Typewriter />
+                    <Footer />
                 </div>
             )
         case("about"):
@@ -59,6 +61,7 @@ render(){
                         contact={this.displaySwitchContact.bind(this)}  
                     />
                     <About />
+                    <Footer />
                 </div>
             )
         case("projects"):
@@ -71,6 +74,7 @@ render(){
                         contact={this.displaySwitchContact.bind(this)}  
                     />
                     <Projects />
+                    <Footer />
                 </div>
             )
         case("contact"):
@@ -83,6 +87,7 @@ render(){
                         contact={this.displaySwitchContact.bind(this)}  
                     />
                     <Contact />
+                    <Footer />
                 </div>
             )
         default:
