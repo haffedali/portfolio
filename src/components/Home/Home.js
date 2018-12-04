@@ -11,12 +11,7 @@ class Home extends Component{
     state ={
         display: 'typewriter',
     }
-
-// populatePage = () => {
-//     setTimeout(()=>{this.setState({
-//         intro: 'done'
-//     })}, 6500);
-// }
+    
 displaySwitchProjects = () => {
     this.setState({display: 'projects'})
   }
@@ -32,9 +27,7 @@ displaySwitchContact = () => {
     this.setState({display: 'contact'})
 }
 
-// componentDidMount(){
-//     this.populatePage()
-// }
+
 
 render(){
     switch(this.state.display){
@@ -93,20 +86,6 @@ render(){
         default:
           //do something
     }
-    // if(this.state.intro !== 'done'){
-    //     return(
-    //         <Typewriter />
-    //         )
-    // }
-    // else {
-        // return(
-        //     <div>
-        //         {/* something other than typewriter here */}
-        //         <Nav />
-        //         <Typewriter />
-        //     </div>
-        // )
-    // }
     }
 }
     
