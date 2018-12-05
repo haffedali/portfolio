@@ -6,19 +6,19 @@ class Typewriter extends Component{
 
     state = {
         num: 1,
-        message: "I'm not a designer.",
+        message: "I'm a developer.",
     }
 
-    fireSecondMessage = () => {
-        setTimeout(()=>{this.setState({
-            num: 2,
-            message: "I'm a developer"
-        })}, 3500);
-    }
+    // fireSecondMessage = () => {
+    //     setTimeout(()=>{this.setState({
+    //         num: 2,
+    //         message: "I'm a developer"
+    //     })}, 3500);
+    // }
 
-    componentDidMount(){
-        this.fireSecondMessage()
-    }
+    // componentDidMount(){
+    //     this.fireSecondMessage()
+    // }
 
     render(){
         if(this.state.num === 1){
