@@ -17,14 +17,16 @@
     position: relative;
     float: left;
     margin: 30px;
-    height:200px;
-    width:200px;
+    margin-right: 80px;
+    height:300px;
+    width:300px;
 }
 
 .testomonial {
     position: relative;
     top: 30px;
     margin: 30px;
+    text-align: left;
 }
 
 .testomonial { font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
