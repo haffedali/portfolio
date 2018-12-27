@@ -9,7 +9,10 @@ const Slider = (props) => {
         </div>
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
-                <p class="card-text">{props.blurb}</p>
+                <div class="card-text-container">
+                    <p class="card-text">{props.blurb}</p>
+                </div>
+                
             </div>
             <div className="button-case">
                     <a id="site" href={props.url} target="_blank" class="btn btn-info"><i class="fas fa-globe"></i></a>
