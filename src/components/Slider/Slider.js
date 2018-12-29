@@ -4,7 +4,7 @@ import "./Slider.css";
 const Slider = (props) => {
     return(
         <div class="card">
-        <div classname="image">
+        <div className="image">
             <img class="card-img-top" src={props.thumbnail} alt="Card image cap" />
         </div>
             <div class="card-body">
@@ -16,6 +16,7 @@ const Slider = (props) => {
             </div>
             <div className="button-case">
                     <a id="site" href={props.url} target="_blank" class="btn btn-info"><i class="fas fa-globe"></i></a>
+                    <button type="button" class="btn btn-light" onClick={props.techClick}>Tech</button>
                     <a id="code" href={props.codeUrl} target="_blank" class="btn btn-warning"><i class="fab fa-github"></i></a>
             </div>   
         </div>

@@ -10,8 +10,9 @@ import Footer from "../Footer/Footer.js"
 class Home extends Component{
     state ={
         display: 'typewriter',
+        stack: 'none'
     }
-    
+
 displaySwitchProjects = () => {
     this.setState({display: 'projects'})
   }
@@ -66,7 +67,8 @@ render(){
                         about={this.displaySwitchAbout.bind(this)} 
                         contact={this.displaySwitchContact.bind(this)}  
                     />
-                    <Projects />
+                    <Projects 
+                    />
                     <Footer />
                 </div>
             )
