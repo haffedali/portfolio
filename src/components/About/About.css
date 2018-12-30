@@ -1,4 +1,4 @@
-.container {
+.container-about {
     width: 65%;
     position: relative;
     text-align: center
@@ -6,7 +6,7 @@
 
 .about {
     position: relative;
-    top: 100px;
+    top: 75px;
 }
 .portrait {
     position: relative;
@@ -21,6 +21,7 @@
     margin-bottom: 80px;
     height:300px;
     width:300px;
+    top: 25px;
 }
 
 .testomonial {

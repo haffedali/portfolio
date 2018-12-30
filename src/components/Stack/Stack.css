@@ -1,30 +1,40 @@
 .container-tech {
-    position:absolute;
+    border-radius: 10px;
+    position: relative;
     text-align: center;
     margin: auto;
-    bottom: 70px;
-    outline: solid;
-    width: 85%;
+    width: 75%;
     height: 100px;
-    padding: 10px;
-    left: 100px;
+    /* padding: 10px; */
+    background-color: #d9d9d9;
+    top: 530px;
 }
 
 .techRow {
-    text-align: left;
+    position: absolute;
+    text-align: center;
     margin: auto;
-    outline: dotted;
     height: 100%;
     padding: 5px;
 }
 
 .techBox {
     /* position: absolute; */
+    border-radius: 10px;
     margin: auto;
-    float: left;
-    height: 100%;
-    width:6%;
+    height: 80%;
+    width: 6%;
     margin-right: 7px;
     margin-left: 7px;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.three {
+    margin: auto;
+    left:510px;
+    width: 80px;
+}
+
+.bamazon {
+    width: 40px;
 }

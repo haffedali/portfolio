@@ -4,9 +4,9 @@ import "./Slider.css";
 const Slider = (props) => {
     return(
         <div class="card">
-        <div className="image">
-            <img class="card-img-top" src={props.thumbnail} alt="Card image cap" />
-        </div>
+            <div className="image">
+                <img class="card-img-top" src={props.thumbnail} alt="Card image cap" />
+            </div>
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
                 <div class="card-text-container">

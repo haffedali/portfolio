@@ -14,11 +14,11 @@ return(
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li className="nav-item">
-        <a class="navtext"  onClick={props.projects}>Projects</a>
+    <li className="nav-item">
+        <a class="navtext"  onClick={props.about}>About</a>
       </li>
       <li className="nav-item">
-        <a class="navtext"  onClick={props.about}>About</a>
+        <a class="navtext"  onClick={props.projects}>Projects</a>
       </li>
       <li className="nav-item">
         <a class="navtext"  onClick={props.contact}>Contact</a>

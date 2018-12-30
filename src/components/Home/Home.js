@@ -34,7 +34,7 @@ render(){
     switch(this.state.display){
         case("typewriter"):
             return(
-                <div class="body">
+                <div>
                     <Nav
                         projects={this.displaySwitchProjects.bind(this)}
                         typewriter={this.displaySwitchTypewriter.bind(this)} 
@@ -47,7 +47,7 @@ render(){
             )
         case("about"):
             return(
-                <div class="body">
+                <div>
                     <Nav 
                         projects={this.displaySwitchProjects.bind(this)}
                         typewriter={this.displaySwitchTypewriter.bind(this)} 
@@ -60,7 +60,7 @@ render(){
             )
         case("projects"):
             return(
-                <div class="body">
+                <div>
                     <Nav 
                         projects={this.displaySwitchProjects.bind(this)}
                         typewriter={this.displaySwitchTypewriter.bind(this)} 
