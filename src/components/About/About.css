@@ -11,6 +11,7 @@
 .portrait {
     position: relative;
     float: left;
+    border-radius: 50px;
 }
 
 .selfie {
