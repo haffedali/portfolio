@@ -8,6 +8,17 @@
     position: relative;
     top: 75px;
 }
+
+.aboutText {
+
+}
+
+.opacity-background {
+    background-color: grey;
+    opacity: .5;
+
+}
+
 .portrait {
     position: relative;
     float: left;
