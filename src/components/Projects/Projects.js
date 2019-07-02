@@ -37,6 +37,7 @@ class Projects extends Component{
     
 
     render(){
+        // eslint-disable-next-line default-case
         switch(this.state.stack){
             case(0):
             return(
