@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import React, { Component } from "react";
 import JS from "./TechLogo/JS.png"
 import HTML from "./TechLogo/HTML.png"

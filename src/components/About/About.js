@@ -5,7 +5,7 @@ const About = () => (
     <div className="container container-about">
         <div className="about">
             <div className="portrait">
-                <img className="selfie" src="https://gyazo.com/7bdfb34aa156e989f1eb46a1ac74a6c7" alt="Supposed to be my handsome face here... woops"/>
+                <img className="selfie" src="https://i.gyazo.com/7bdfb34aa156e989f1eb46a1ac74a6c7.png" alt="Supposed to be my handsome face here... woops"/>
             </div>
             <div className="testomonial">
                 
